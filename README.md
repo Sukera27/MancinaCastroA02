@@ -1,4 +1,4 @@
-# Ejercicio 01 - Contador Flutter
+# Ejercicio 01
 
 Crea un nuevo PROYECTO y crea el `contador` que creamos en android(sin funcionalidad por ahora).
 
