@@ -18,8 +18,9 @@ El proyecto consiste en una aplicación Flutter que muestra un contador en panta
 El código está organizado de la siguiente manera:
 
 - **main.dart**: Archivo principal que inicia la aplicación Flutter.
-- **MyApp**: Clase principal que define la estructura de la aplicación.
-- **ContadorScreen**: Página que muestra el contador y los botones.
+- Dentro de la carpeta `lib` tenemos la carpeta `widget` donde se encuentra el archivo `btn_class.dart` donde encontramos el desarrollo de los botones.
+- **MyApp**: Clase principal que define la estructura de la aplicación. Encontraremos
+  desarrollado los distintos metodos que daran las funcionalidades a los botones (subtract(para disminuir), resetCounter (para resetear a 0), add(para aumentar)).
 
 ## Requisitos Previos
 
