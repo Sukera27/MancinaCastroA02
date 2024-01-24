@@ -22,6 +22,7 @@ class CounterState extends State<Counter> {
   void add() {
     setState(() {
       count++;
+      debugPrint("Contador: ${count}");
     });
   }
 
@@ -29,6 +30,7 @@ class CounterState extends State<Counter> {
     setState(() {
       if (count > 0) {
         count--;
+        debugPrint("Contador: ${count}");
       }
     });
   }
@@ -36,6 +38,7 @@ class CounterState extends State<Counter> {
   void resetCounter() {
     setState(() {
       count = 0;
+      debugPrint("Contador: ${count}");
     });
   }
 
