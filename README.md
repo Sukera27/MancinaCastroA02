@@ -1,12 +1,17 @@
-# Ejercicio 01
+# Ejercicio 02
 
-Crea un nuevo PROYECTO y crea el `contador` que creamos en android(sin funcionalidad por ahora).
+- Deberás de crear una clase en flutter que sea una plantilla de los botones, en la que le pases el argumento de texto y sustituirlo por los 3 botones que tenemos → 2 puntos
+- Darle funcionalidad a los botones, cambios solo por consola → 2 puntos
+- Cambios por pantalla → 4 puntos.
+- README → 2 puntos.
 
 ## Descripción del Proyecto
 
 El proyecto consiste en una aplicación Flutter que muestra un contador en pantalla. La interfaz incluye un título "CONTADOR", un número que representa el contador y tres botones: "+" para incrementar, "RESET" para reiniciar y "-" para decrementar el contador.
 
-![ContadorFlutter](https://github.com/Sukera27/MancinaCastroA02/assets/122563964/07e12c1b-bdc5-463d-9711-60f2d349f5ff)
+![ContadorFlutter](https://github.com/Sukera27/MancinaCastroA02/assets/122563964/07e12c1b-bdc5-463d-9711-60f2d349f5ff)     ![Counter2](https://github.com/Sukera27/MancinaCastroA02/assets/122563964/b6986db9-79a5-4fbc-93ab-dcc7d0a1f7cb)
+
+
 
 ## Estructura del Proyecto
 
