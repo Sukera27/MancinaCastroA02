@@ -15,12 +15,25 @@ El proyecto consiste en una aplicación Flutter que muestra un contador en panta
 
 ## Estructura del Proyecto
 
-El código está organizado de la siguiente manera:
+# `main.dart`
 
-- **main.dart**: Archivo principal que inicia la aplicación Flutter.
-- Dentro de la carpeta `lib` tenemos la carpeta `widget` donde se encuentra el archivo `btn_class.dart` donde encontramos el desarrollo de los botones.
-- **MyApp**: Clase principal que define la estructura de la aplicación. Encontraremos
-  desarrollado los distintos metodos que daran las funcionalidades a los botones (subtract(para disminuir), resetCounter (para resetear a 0), add(para aumentar)).
+Este archivo contiene la estructura principal de la aplicación Flutter. La clase `MyApp` es un `StatelessWidget` que inicializa y ejecuta el widget `Counter`.
+
+## Widget `Counter`
+
+- Este es un `StatefulWidget` que representa la pantalla del contador.
+- Tiene una clase de estado, `CounterState`, que gestiona el estado del contador.
+- El contador se puede incrementar, decrementar o reiniciar mediante los botones proporcionados.
+
+### Botones (`ButtonCount`)
+
+- Widget de botón personalizado definido en `btn_class.dart`.
+- Acepta parámetros como texto, tamaño de fuente y una devolución de llamada `onPressed`.
+- Se utiliza para los botones de incremento, decremento y reinicio en el widget `Counter`.
+
+# `btn_class.dart`
+
+Este archivo define el widget `ButtonCount`, que es un botón personalizado utilizado en la pantalla del contador. Es un `StatelessWidget` con texto personalizable, tamaño de fuente y una devolución de llamada `onPressed`.
 
 ## Requisitos Previos
 
